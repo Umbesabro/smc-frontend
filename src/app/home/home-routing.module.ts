@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { extract } from '@app/i18n';
 import { HomeComponent } from './home.component';
 import { Shell } from '@app/shell/shell.service';
 
@@ -11,7 +10,7 @@ const routes: Routes = [
     {
       path: 'home',
       component: HomeComponent,
-      data: { title: extract('Home') },
+      data: { title: 'Home' },
     },
   ]),
 ];
