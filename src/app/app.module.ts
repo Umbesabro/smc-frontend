@@ -17,6 +17,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MaterialListModule } from './material-list/material-list.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   imports: [
@@ -35,8 +37,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutModule,
     MaterialListModule,
     AuthModule,
-    AppRoutingModule, // must be imported as the last module as it contains the fallback route,
     BrowserAnimationsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    AppRoutingModule, // must be imported as the last module as it contains the fallback route,
   ],
   declarations: [AppComponent],
   providers: [],

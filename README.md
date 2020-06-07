@@ -1,3 +1,7 @@
+SMC - Stock Management Center frontend.
+
+This is a frontend application of SMC written in TypeScript using Angular9.
+
 # Getting started
 
 1. Go to project folder and install dependencies:
